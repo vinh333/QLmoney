@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204718830144",
+    "project_id": "qlmoney-d9fcb",
+    "storage_bucket": "qlmoney-d9fcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204718830144:android:b35da880badadf786225a5",
+        "android_client_info": {
+          "package_name": "com.example.qlmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204718830144-qm4e41tok8dhjd1u13oom29hqe5p4blq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUGCXUf7SvlMJtCTwJlQAoiWlb0QkN9xY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204718830144-qm4e41tok8dhjd1u13oom29hqe5p4blq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    android:gravity="center|fill_vertical"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/shib_fina__1_" />
+
+    <TextView
+        android:id="@+id/title_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:text="Sign Up"
+        android:textColor="#03A9F4"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:hint="Email"
+        android:padding="5dp"
+        android:textColorHint="@color/footerText" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColorHint="@color/footerText" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColorHint="@color/footerText" />
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirm_password"
+        android:layout_marginTop="16dp"
+        android:background="#49C1A2"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/already_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Đã có tài khoản?     "
+        android:textAlignment="center"
+        android:textColor="@color/footerText"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/login_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/already_have_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="Login here"
+        android:textColor="#49C1A2"
+        android:textSize="12sp" />
+
+</LinearLayout>

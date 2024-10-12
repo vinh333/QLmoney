@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icon_ids">
+        <item>@drawable/_0</item>
+        <item>@drawable/_6</item>
+        <item>@drawable/_2</item>
+        <item>@drawable/_4</item>
+        <item>@drawable/_5</item>
+        <item>@drawable/bieu_do</item>
+        <item>@drawable/_7</item>
+        <item>@drawable/_8</item>
+        <!-- Thêm các địa chỉ tài nguyên của các biểu tượng khác -->
+    </array>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QLmoney"
+        tools:targetApi="31">
+        <activity
+            android:name=".User.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.qlmoney.MainActivity" />
+
+        <activity
+            android:name=".Database.Item"/>
+        <activity
+            android:name=".Adapter.Items_Adapter"/>
+        <activity
+            android:name=".Adapter.Phanloai_Adapter"/>
+        <activity
+            android:name=".Chi_tieu.NhapthuchiActivity"/>
+        <activity
+            android:name=".Chi_tieu.NhapchitietActivity" />
+        <activity
+            android:name=".Phan_loai.ThemphanloaiActivity" />
+        <activity
+            android:name=".Phan_loai.Them_chitiet_phan_loai" />
+        <activity
+            android:name=".Phan_loai.Sua_Xoa_Phanloai" />
+        <activity
+            android:name=".Chi_tieu.Sua_Xoa_Chitieu" />
+        <activity
+            android:name=".BieudoActivity" />
+<!--        <activity-->
+<!--            android:name=".User.LoginActivity" />-->
+        <activity
+            android:name=".User.RegisterActivity" />
+        <activity
+            android:name=".Connect_Google" />
+        <activity android:name=".BackupActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
